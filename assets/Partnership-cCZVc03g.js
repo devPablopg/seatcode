@@ -1,4 +1,4 @@
-import{d as r,m as d,j as e}from"./index-DuzklH2U.js";import{L as i,D as o,M as p,T as m,W as h,a as w}from"./LocaleService-C19YxyPP.js";import{S as g,H as f}from"./Types-DVQZy6Bd.js";import{S as x}from"./index-B_99mNhW.js";import{F as v}from"./index-TxuNGxbl.js";const u=r.div`
+import{d as r,m as d,j as e}from"./index-b__LjD7e.js";import{L as i,D as o,M as p,T as m,W as h,a as w}from"./LocaleService-C19YxyPP.js";import{H as g}from"./index-BpRjVUsv.js";import{S as f}from"./index-Ha9IsdPI.js";import{F as x}from"./index-DEvoucGH.js";const v=r.div`
   display: flex;
   flex-wrap: wrap;
   margin: 5vw auto 10vw;
@@ -42,7 +42,7 @@ import{d as r,m as d,j as e}from"./index-DuzklH2U.js";import{L as i,D as o,M as 
       margin-right: 49vw;
     }
   }
-`,y={en:{title:"PARTNERSHIP",subTitle:"Our partners",summary:["Humility is the key for a growth mindset. That is why we collaborate with external partners for SEAT CODE to boost our reputation as employers & digital makers, inspire our talent and be a key player in the tech ecosystem in Barcelona (and beyond!).","SEAT CODE preserves its StartUp spirit since 2019 and by partnering with such fresh entities we aim to maintain our hands-on mindset and focus on delivery!"],cardTitle1:"LA SALLE URL",cardParagraph1:"Together we will work to promote the development of entrepreneurship and economic-social cooperation within the framework of the Corporate Board Council, the business council of La Salle Barcelona – Universitat Ramon Llull.",cardTitle2:"TECH BARCELONA",cardParagraph2:"Tech Barcelona is a network of more than 1.300 members and an audience of 35.000+ tech profiles and we are GLOBAL Partners and co-founders. SEAT CODE aims to support product commercialisation, establish closer collaboration with Startups and to participate and organize tech events for the community.",cardTitle3:"22@ NETWORK",cardParagraph3:"The 22@Network Barcelona is an association of companies which are based in Poblenou (the 1st  innovation district in the world). SEAT CODE aims to contribute on consolidating the use of technology and innovative transformation from Poblenou to the world.",cardTitle4:"MOBILE WORLD CAPITAL",cardParagraph4:"We are recently partnered with Mobile World Capital to speed up access to digital talent and offer SEAT CODErs with inspiring content and events to promote knowledge transfer and collaboration among local entities."}},c=d`
+`,u={en:{title:"PARTNERSHIP",subTitle:"Our partners",summary:["Humility is the key for a growth mindset. That is why we collaborate with external partners for SEAT CODE to boost our reputation as employers & digital makers, inspire our talent and be a key player in the tech ecosystem in Barcelona (and beyond!).","SEAT CODE preserves its StartUp spirit since 2019 and by partnering with such fresh entities we aim to maintain our hands-on mindset and focus on delivery!"],cardTitle1:"LA SALLE URL",cardParagraph1:"Together we will work to promote the development of entrepreneurship and economic-social cooperation within the framework of the Corporate Board Council, the business council of La Salle Barcelona – Universitat Ramon Llull.",cardTitle2:"TECH BARCELONA",cardParagraph2:"Tech Barcelona is a network of more than 1.300 members and an audience of 35.000+ tech profiles and we are GLOBAL Partners and co-founders. SEAT CODE aims to support product commercialisation, establish closer collaboration with Startups and to participate and organize tech events for the community.",cardTitle3:"22@ NETWORK",cardParagraph3:"The 22@Network Barcelona is an association of companies which are based in Poblenou (the 1st  innovation district in the world). SEAT CODE aims to contribute on consolidating the use of technology and innovative transformation from Poblenou to the world.",cardTitle4:"MOBILE WORLD CAPITAL",cardParagraph4:"We are recently partnered with Mobile World Capital to speed up access to digital talent and offer SEAT CODErs with inspiring content and events to promote knowledge transfer and collaboration among local entities."}},c=d`
   0% {
     opacity: 0;
     transform: translateY(80%);
@@ -58,7 +58,7 @@ import{d as r,m as d,j as e}from"./index-DuzklH2U.js";import{L as i,D as o,M as 
     opacity: 1;
     transform: translateY(0%);
   }
-`,T=d`
+`,y=d`
   0% {
     transform: perspective(1000px) rotateX(90deg);
     opacity: 0;
@@ -70,7 +70,7 @@ import{d as r,m as d,j as e}from"./index-DuzklH2U.js";import{L as i,D as o,M as 
     transform: perspective(1000px) rotateX(0deg);
     opacity: 1;
   }
-`,b=r.div`
+`,T=r.div`
   display: flex;
   flex-wrap: wrap;
   max-width: 90vw;
@@ -109,16 +109,16 @@ import{d as r,m as d,j as e}from"./index-DuzklH2U.js";import{L as i,D as o,M as 
   @media screen and (min-width: 4000px) {
     margin: 12vw 0;
   }
-`,E=r.div`
+`,b=r.div`
   display: flex;
   flex-direction: column;
-`,P=r.p`
+`,E=r.p`
   font-weight: 500;
   color: ${t=>t.theme.colors.primaryGreen.hexa};
   font-size: clamp(1.2rem, 2.9vw, 5rem);
   animation: 2s ${c} ease-in-out;
   margin: 0;
-`,j=r.p`
+`,P=r.p`
   font-weight: 400;
   color: ${t=>t.theme.colors.white.hexa};
   font-size: clamp(12px, 1.3vw, 3rem);
@@ -128,7 +128,7 @@ import{d as r,m as d,j as e}from"./index-DuzklH2U.js";import{L as i,D as o,M as 
   @media screen and (width >= ${i}px) {
     width: 32vw;
   }
-`,S=r.div`
+`,j=r.div`
   display: flex;
   position: relative;
   width: 100%;
@@ -144,7 +144,7 @@ import{d as r,m as d,j as e}from"./index-DuzklH2U.js";import{L as i,D as o,M as 
     background-color: ${t=>t.theme.colors.white.hexa};
     transform-origin: bottom;
     transform-style: preserve-3d;
-    animation: ${T} 1.5s ease-in-out forwards;
+    animation: ${y} 1.5s ease-in-out forwards;
 
     @media screen and (min-width: ${i}px) {
       width: 50%;
@@ -160,4 +160,4 @@ import{d as r,m as d,j as e}from"./index-DuzklH2U.js";import{L as i,D as o,M as 
       top: 0.5vw;
     }
   }
-`,n=({title:t,paragraph:l,image:s})=>e.jsxs(b,{children:[e.jsxs(E,{children:[e.jsx(P,{children:t}),e.jsx(j,{children:l})]}),e.jsx(S,{children:e.jsx("img",{src:`${g}`+s.src,alt:s.alt,loading:"lazy"})})]}),a={...y[w.getLanguage()]},k=()=>e.jsxs(e.Fragment,{children:[e.jsx(f,{title:a.title,subTitle:a.subTitle}),e.jsx(x,{summary:a.summary}),e.jsxs(u,{children:[e.jsx(n,{title:a.cardTitle1,paragraph:a.cardParagraph1,image:{src:"la-salle.svg",alt:"la-salle-url"}}),e.jsx(n,{title:a.cardTitle2,paragraph:a.cardParagraph2,image:{src:"tech-bcn.svg",alt:"tech-bcn"}}),e.jsx(n,{title:a.cardTitle3,paragraph:a.cardParagraph3,image:{src:"network-bcn.svg",alt:"22@-network-bcn"}}),e.jsx(n,{title:a.cardTitle4,paragraph:a.cardParagraph4,image:{src:"mwb.svg",alt:"mobile-world-capital"}})]}),e.jsx(v,{})]});export{k as default};
+`,n=({title:t,paragraph:l,image:s})=>e.jsxs(T,{children:[e.jsxs(b,{children:[e.jsx(E,{children:t}),e.jsx(P,{children:l})]}),e.jsx(j,{children:e.jsx("img",{src:s.src,alt:s.alt,loading:"lazy"})})]}),a={...u[w.getLanguage()]},O=()=>e.jsxs(e.Fragment,{children:[e.jsx(g,{title:a.title,subTitle:a.subTitle}),e.jsx(f,{summary:a.summary}),e.jsxs(v,{children:[e.jsx(n,{title:a.cardTitle1,paragraph:a.cardParagraph1,image:{src:"la-salle.svg",alt:"la-salle-url"}}),e.jsx(n,{title:a.cardTitle2,paragraph:a.cardParagraph2,image:{src:"tech-bcn.svg",alt:"tech-bcn"}}),e.jsx(n,{title:a.cardTitle3,paragraph:a.cardParagraph3,image:{src:"network-bcn.svg",alt:"22@-network-bcn"}}),e.jsx(n,{title:a.cardTitle4,paragraph:a.cardParagraph4,image:{src:"mwb.svg",alt:"mobile-world-capital"}})]}),e.jsx(x,{})]});export{O as default};

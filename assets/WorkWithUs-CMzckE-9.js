@@ -1,10 +1,10 @@
-import{d as i,m as C,a as f,j as e}from"./index-DuzklH2U.js";import{L as s,W as d,T as m,M as g,D as A,a as S}from"./LocaleService-C19YxyPP.js";import{F as l,H as L}from"./Types-DVQZy6Bd.js";import{S as O}from"./index-B_99mNhW.js";import{W as B,a as P,b as D,C as R}from"./index-DPkXYmNa.js";import{F as M}from"./index-TxuNGxbl.js";import"./link-ZWr2pd5K.js";const T={en:{title:"WORK WITH US",subTitle:"Careers",summary:["At SEAT CODE, we revolutionise how you experience mobility & technology. Join a team that dares to do things differently."],cardTitle:"OUR CULTURE",cardParagraph:[{key:"At-SC",font:l.NORMAL,text:"At SEAT CODE, "},{key:"we-cultivate",font:l.BOLD,text:"we cultivate a culture of creativity, bold thinking and share a passion for digital transformation. "},{key:"with-a-team",font:l.NORMAL,text:"With a team of talent from over 20 nationalities, we bring diverse perspectives together to create solutions that push boundaries. "},{key:"INTRO-with"},{key:"At-Seat",font:l.NORMAL,text:"At SEAT CODE, every voice matters, every challenge is an opportunity and every success is shared. "},{key:"collaboration-is",font:l.BOLD,text:"Collaboration is at the heart of everything we do. "},{key:"personal-growth",font:l.NORMAL,text:"Personal growth, feedback and mutual support drive us forward. "},{key:"INTRO-personal"},{key:"ready-to",font:l.BOLD,text:"Ready to move differently? Let’s build the future together."}],projectsNumber:"100+",projectsLiteral:"Successful Projects",nationalitiesNumber:"20+",nationalitiesLiteral:"Different Nationalities",expertsNumber:"280+",expertsLiteral:"Experts",ourPerks:"some of our perks",competitiveSalary:"Competitive salary",dailySnacks:"Daily snacks",culture:"Learning & Development Culture",gearsNeeds:"Best gear for your needs",flexibleWorking:"Flexible working hours",closeBeach:"Super close to the beach",yourName:"Your Name",yourEmail:"Your Email",yourPhone:"Your Phone",howDidYouFindUs:"How did you find us?",selectOne:"Select one",internet:"Internet",socialNetworks:"Social Networks",other:"Other",yourOrganization:"Your organization",yourMessage:"Your Message",mailError:"The contact email is not valid",send:"send"}},I=i.div`
+import{d as i,m as C,a as f,j as e}from"./index-b__LjD7e.js";import{L as n,W as d,T as m,M as g,D as A,a as S}from"./LocaleService-C19YxyPP.js";import{H as L}from"./index-BpRjVUsv.js";import{S as O}from"./index-Ha9IsdPI.js";import{F as l,W as B,a as P,b as D,C as R}from"./index-YZGFP16L.js";import{F as M}from"./index-DEvoucGH.js";import"./link-BuwL2cQo.js";const T={en:{title:"WORK WITH US",subTitle:"Careers",summary:["At SEAT CODE, we revolutionise how you experience mobility & technology. Join a team that dares to do things differently."],cardTitle:"OUR CULTURE",cardParagraph:[{key:"At-SC",font:l.NORMAL,text:"At SEAT CODE, "},{key:"we-cultivate",font:l.BOLD,text:"we cultivate a culture of creativity, bold thinking and share a passion for digital transformation. "},{key:"with-a-team",font:l.NORMAL,text:"With a team of talent from over 20 nationalities, we bring diverse perspectives together to create solutions that push boundaries. "},{key:"INTRO-with"},{key:"At-Seat",font:l.NORMAL,text:"At SEAT CODE, every voice matters, every challenge is an opportunity and every success is shared. "},{key:"collaboration-is",font:l.BOLD,text:"Collaboration is at the heart of everything we do. "},{key:"personal-growth",font:l.NORMAL,text:"Personal growth, feedback and mutual support drive us forward. "},{key:"INTRO-personal"},{key:"ready-to",font:l.BOLD,text:"Ready to move differently? Let’s build the future together."}],projectsNumber:"100+",projectsLiteral:"Successful Projects",nationalitiesNumber:"20+",nationalitiesLiteral:"Different Nationalities",expertsNumber:"280+",expertsLiteral:"Experts",ourPerks:"some of our perks",competitiveSalary:"Competitive salary",dailySnacks:"Daily snacks",culture:"Learning & Development Culture",gearsNeeds:"Best gear for your needs",flexibleWorking:"Flexible working hours",closeBeach:"Super close to the beach",yourName:"Your Name",yourEmail:"Your Email",yourPhone:"Your Phone",howDidYouFindUs:"How did you find us?",selectOne:"Select one",internet:"Internet",socialNetworks:"Social Networks",other:"Other",yourOrganization:"Your organization",yourMessage:"Your Message",mailError:"The contact email is not valid",send:"send"}},I=i.div`
   display: flex;
   justify-content: center;
   max-width: 70%;
   margin: auto;
 
-  @media screen and (min-width: ${s}px) {
+  @media screen and (min-width: ${n}px) {
     justify-content: space-between;
     max-width: 80%;
   }
@@ -72,7 +72,7 @@ import{d as i,m as C,a as f,j as e}from"./index-DuzklH2U.js";import{L as s,W as 
   margin-top: 1vw;
 `,Y=i.div`
   ${B} {
-    @media screen and (width >= ${s}px) {
+    @media screen and (width >= ${n}px) {
       width: 32.2vw;
     }
   }
@@ -84,7 +84,7 @@ import{d as i,m as C,a as f,j as e}from"./index-DuzklH2U.js";import{L as s,W as 
   ${D} {
     clip-path: unset;
 
-    @media screen and (min-width: ${s}px) {
+    @media screen and (min-width: ${n}px) {
       img {
         height: 38vw;
         max-height: 800px;
@@ -117,7 +117,7 @@ import{d as i,m as C,a as f,j as e}from"./index-DuzklH2U.js";import{L as s,W as 
   align-items: center;
   width: 24%;
 
-  @media screen and (min-width: ${s}px) {
+  @media screen and (min-width: ${n}px) {
     width: 14%;
   }
 
@@ -149,7 +149,7 @@ import{d as i,m as C,a as f,j as e}from"./index-DuzklH2U.js";import{L as s,W as 
       rgba(28, 28, 28, 1),
       rgba(167, 249, 171, 0.3)
     ),
-    url("/src/assets/img/seat/street.webp");
+    url("./street.webp");
   background-size: cover;
   background-position: center;
 
@@ -161,7 +161,7 @@ import{d as i,m as C,a as f,j as e}from"./index-DuzklH2U.js";import{L as s,W as 
     padding: 3rem 2rem;
   }
 
-  @media screen and (min-width: ${g}px) and (max-width: ${s}px) and (orientation: landscape) {
+  @media screen and (min-width: ${g}px) and (max-width: ${n}px) and (orientation: landscape) {
     width: 80%;
   }
 
@@ -246,7 +246,7 @@ import{d as i,m as C,a as f,j as e}from"./index-DuzklH2U.js";import{L as s,W as 
     padding: 1rem;
   }
 
-  @media screen and (min-width: ${g}px) and (max-width: ${s}px) and (orientation: landscape) {
+  @media screen and (min-width: ${g}px) and (max-width: ${n}px) and (orientation: landscape) {
     padding: 0.5rem;
   }
 
@@ -286,7 +286,7 @@ import{d as i,m as C,a as f,j as e}from"./index-DuzklH2U.js";import{L as s,W as 
     padding: 1rem;
   }
 
-  @media screen and (min-width: ${g}px) and (max-width: ${s}px) and (orientation: landscape) {
+  @media screen and (min-width: ${g}px) and (max-width: ${n}px) and (orientation: landscape) {
     padding: 0.5rem;
   }
 
@@ -327,7 +327,7 @@ import{d as i,m as C,a as f,j as e}from"./index-DuzklH2U.js";import{L as s,W as 
     padding: 1rem;
   }
 
-  @media screen and (min-width: ${g}px) and (max-width: ${s}px) and (orientation: landscape) {
+  @media screen and (min-width: ${g}px) and (max-width: ${n}px) and (orientation: landscape) {
     height: 10.8rem;
     padding: 0.5rem;
   }
@@ -365,4 +365,4 @@ import{d as i,m as C,a as f,j as e}from"./index-DuzklH2U.js";import{L as s,W as 
     font-size: 2rem;
     padding: 1.5rem 3rem;
   }
-`,Z=/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]{2,})+$/,_=r=>Z.test(r),a={...T[S.getLanguage()]},J=()=>{const[r,y]=f.useState(null),[N,k]=f.useState(""),[$,z]=f.useState(!1),c=n=>{y(n.target.name)},h=n=>{if(n.target.value===""&&y(null),n.target.name==="email"){const w=n.target.value;k(w),z(w?!_(w):!1)}},W=n=>{k(n.target.value)};return e.jsxs(G,{method:"POST",action:"https://formspree.io/f/xvoeqgak",children:[e.jsxs(F,{children:[e.jsxs(x,{children:[e.jsx(u,{id:"name",type:"text",name:"name",required:!0,placeholder:" ",onFocus:c,onBlur:h}),e.jsx(o,{htmlFor:"name",children:a.yourName})]}),e.jsxs(x,{children:[e.jsx(u,{id:"email",type:"email",name:"email",required:!0,placeholder:" ",onFocus:c,onBlur:h,onChange:W,value:N}),e.jsx(o,{htmlFor:"email",className:$?"error":"green",children:$?a.mailError:a.yourEmail})]}),e.jsxs(x,{children:[e.jsx(u,{id:"phone",type:"number",name:"phone",required:!0,placeholder:" ",onFocus:c,onBlur:h}),e.jsx(o,{htmlFor:"phone",children:a.yourPhone})]}),e.jsxs(x,{children:[e.jsxs(H,{id:"find-us",name:"find-us",required:!0,onFocus:c,onBlur:h,defaultValue:"",children:[e.jsx("option",{value:"",disabled:!0,hidden:!0,children:a.selectOne}),e.jsx("option",{value:"internet",children:a.internet}),e.jsx("option",{value:"social",children:a.socialNetworks}),e.jsx("option",{value:"other",children:a.other})]}),r==="find-us"&&e.jsx(o,{htmlFor:"find-us",children:a.howDidYouFindUs})]})]}),e.jsxs(F,{children:[e.jsxs(x,{children:[e.jsx(u,{id:"organization",type:"text",name:"company",required:!0,placeholder:" ",onFocus:c,onBlur:h}),e.jsx(o,{htmlFor:"organization",children:a.yourOrganization})]}),e.jsxs(x,{children:[e.jsx(K,{id:"message",rows:11,name:"message",required:!0,placeholder:" ",onFocus:c,onBlur:h}),e.jsx(o,{htmlFor:"message",className:"textarea",children:a.yourMessage})]})]}),e.jsx(V,{type:"submit",children:a.send})]})},t={...T[S.getLanguage()]},oe=()=>e.jsxs(e.Fragment,{children:[e.jsx(L,{title:t.title,subTitle:t.subTitle}),e.jsx(O,{summary:t.summary}),e.jsxs(I,{children:[e.jsxs(b,{children:[e.jsx(v,{children:t.projectsNumber}),e.jsx(j,{children:t.projectsLiteral})]}),e.jsxs(b,{children:[e.jsx(v,{children:t.nationalitiesNumber}),e.jsx(j,{children:t.nationalitiesLiteral})]}),e.jsxs(b,{children:[e.jsx(v,{children:t.expertsNumber}),e.jsx(j,{children:t.expertsLiteral})]})]}),e.jsx(Y,{children:e.jsx(R,{isRight:!0,title:t.cardTitle,paragraph:t.cardParagraph,image:[{src:"culture.webp",alt:"team-working"}]})}),e.jsx(E,{children:t.ourPerks}),e.jsxs(q,{children:[e.jsxs(p,{children:[e.jsx("img",{src:"src/assets/img/icons/save-money.svg",alt:"save-money"}),e.jsx("p",{children:t.competitiveSalary})]}),e.jsxs(p,{children:[e.jsx("img",{src:"src/assets/img/icons/apple.svg",alt:"snack"}),e.jsx("p",{children:t.dailySnacks})]}),e.jsxs(p,{children:[e.jsx("img",{src:"src/assets/img/icons/book.svg",alt:"book"}),e.jsx("p",{children:t.culture})]}),e.jsxs(p,{children:[e.jsx("img",{src:"src/assets/img/icons/screen.svg",alt:"screen"}),e.jsx("p",{children:t.gearsNeeds})]}),e.jsxs(p,{children:[e.jsx("img",{src:"src/assets/img/icons/time.svg",alt:"clock"}),e.jsx("p",{children:t.flexibleWorking})]}),e.jsxs(p,{children:[e.jsx("img",{src:"src/assets/img/icons/umbrella.svg",alt:"umbrella"}),e.jsx("p",{children:t.closeBeach})]})]}),e.jsx(E,{children:t.title}),e.jsx(J,{}),e.jsx(M,{})]});export{oe as default};
+`,Z=/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]{2,})+$/,_=r=>Z.test(r),a={...T[S.getLanguage()]},J=()=>{const[r,y]=f.useState(null),[N,k]=f.useState(""),[$,z]=f.useState(!1),c=s=>{y(s.target.name)},h=s=>{if(s.target.value===""&&y(null),s.target.name==="email"){const w=s.target.value;k(w),z(w?!_(w):!1)}},W=s=>{k(s.target.value)};return e.jsxs(G,{method:"POST",action:"https://formspree.io/f/xvoeqgak",children:[e.jsxs(F,{children:[e.jsxs(x,{children:[e.jsx(u,{id:"name",type:"text",name:"name",required:!0,placeholder:" ",onFocus:c,onBlur:h}),e.jsx(o,{htmlFor:"name",children:a.yourName})]}),e.jsxs(x,{children:[e.jsx(u,{id:"email",type:"email",name:"email",required:!0,placeholder:" ",onFocus:c,onBlur:h,onChange:W,value:N}),e.jsx(o,{htmlFor:"email",className:$?"error":"green",children:$?a.mailError:a.yourEmail})]}),e.jsxs(x,{children:[e.jsx(u,{id:"phone",type:"number",name:"phone",required:!0,placeholder:" ",onFocus:c,onBlur:h}),e.jsx(o,{htmlFor:"phone",children:a.yourPhone})]}),e.jsxs(x,{children:[e.jsxs(H,{id:"find-us",name:"find-us",required:!0,onFocus:c,onBlur:h,defaultValue:"",children:[e.jsx("option",{value:"",disabled:!0,hidden:!0,children:a.selectOne}),e.jsx("option",{value:"internet",children:a.internet}),e.jsx("option",{value:"social",children:a.socialNetworks}),e.jsx("option",{value:"other",children:a.other})]}),r==="find-us"&&e.jsx(o,{htmlFor:"find-us",children:a.howDidYouFindUs})]})]}),e.jsxs(F,{children:[e.jsxs(x,{children:[e.jsx(u,{id:"organization",type:"text",name:"company",required:!0,placeholder:" ",onFocus:c,onBlur:h}),e.jsx(o,{htmlFor:"organization",children:a.yourOrganization})]}),e.jsxs(x,{children:[e.jsx(K,{id:"message",rows:11,name:"message",required:!0,placeholder:" ",onFocus:c,onBlur:h}),e.jsx(o,{htmlFor:"message",className:"textarea",children:a.yourMessage})]})]}),e.jsx(V,{type:"submit",children:a.send})]})},t={...T[S.getLanguage()]},oe=()=>e.jsxs(e.Fragment,{children:[e.jsx(L,{title:t.title,subTitle:t.subTitle}),e.jsx(O,{summary:t.summary}),e.jsxs(I,{children:[e.jsxs(b,{children:[e.jsx(v,{children:t.projectsNumber}),e.jsx(j,{children:t.projectsLiteral})]}),e.jsxs(b,{children:[e.jsx(v,{children:t.nationalitiesNumber}),e.jsx(j,{children:t.nationalitiesLiteral})]}),e.jsxs(b,{children:[e.jsx(v,{children:t.expertsNumber}),e.jsx(j,{children:t.expertsLiteral})]})]}),e.jsx(Y,{children:e.jsx(R,{isRight:!0,title:t.cardTitle,paragraph:t.cardParagraph,image:[{src:"culture.webp",alt:"team-working"}]})}),e.jsx(E,{children:t.ourPerks}),e.jsxs(q,{children:[e.jsxs(p,{children:[e.jsx("img",{src:"src/assets/img/icons/save-money.svg",alt:"save-money"}),e.jsx("p",{children:t.competitiveSalary})]}),e.jsxs(p,{children:[e.jsx("img",{src:"src/assets/img/icons/apple.svg",alt:"snack"}),e.jsx("p",{children:t.dailySnacks})]}),e.jsxs(p,{children:[e.jsx("img",{src:"src/assets/img/icons/book.svg",alt:"book"}),e.jsx("p",{children:t.culture})]}),e.jsxs(p,{children:[e.jsx("img",{src:"src/assets/img/icons/screen.svg",alt:"screen"}),e.jsx("p",{children:t.gearsNeeds})]}),e.jsxs(p,{children:[e.jsx("img",{src:"src/assets/img/icons/time.svg",alt:"clock"}),e.jsx("p",{children:t.flexibleWorking})]}),e.jsxs(p,{children:[e.jsx("img",{src:"src/assets/img/icons/umbrella.svg",alt:"umbrella"}),e.jsx("p",{children:t.closeBeach})]})]}),e.jsx(E,{children:t.title}),e.jsx(J,{}),e.jsx(M,{})]});export{oe as default};

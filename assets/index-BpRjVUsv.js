@@ -1,4 +1,4 @@
-import{d as n,m as p,a as c,j as t}from"./index-DuzklH2U.js";import{T as I,M as O,L as r,a as R,W as N}from"./LocaleService-C19YxyPP.js";import{R as m}from"./index-TxuNGxbl.js";const A=n.section`
+import{d as n,m as p,a as c,j as t}from"./index-b__LjD7e.js";import{T as I,M as T,L as r,a as A,W as M}from"./LocaleService-C19YxyPP.js";import{R as m}from"./index-DEvoucGH.js";const N=n.section`
   height: 33vh;
   position: relative;
   overflow: hidden;
@@ -6,7 +6,7 @@ import{d as n,m as p,a as c,j as t}from"./index-DuzklH2U.js";import{T as I,M as 
   @media screen and (min-width: ${I}px) and (max-width: ${r-1}px) {
     height: 46vh;
   }
-  @media screen and (min-width: ${O}px) and (max-width: ${r-1}px) and (orientation: landscape) {
+  @media screen and (min-width: ${T}px) and (max-width: ${r-1}px) and (orientation: landscape) {
     height: 80vh;
   }
   @media screen and (width = ${r}px) {
@@ -15,7 +15,7 @@ import{d as n,m as p,a as c,j as t}from"./index-DuzklH2U.js";import{T as I,M as 
   @media screen and (width > ${r}px) {
     height: 100vh;
   }
-`,M=p`
+`,R=p`
   0%, 100% { 
     opacity: 1;
     transform: translate3d(40px, 0, 0);
@@ -32,7 +32,7 @@ import{d as n,m as p,a as c,j as t}from"./index-DuzklH2U.js";import{T as I,M as 
   80% { clip-path: polygon(0 50%, 100% 50%, 100% 55%, 0 55%); }
   85% { clip-path: polygon(0 60%, 100% 60%, 100% 65%, 0 65%); }
   95% { clip-path: polygon(0 72%, 100% 72%, 100% 78%, 0 78%); }
-`,L=p`
+`,z=p`
   0%, 100% { 
     opacity: 1;
     transform: translate3d(-10px, 0, 0);
@@ -53,7 +53,7 @@ import{d as n,m as p,a as c,j as t}from"./index-DuzklH2U.js";import{T as I,M as 
   70% { clip-path: polygon(0 65%, 100% 65%, 100% 60%, 0 60%); }
   80% { clip-path: polygon(0 80%, 100% 80%, 100% 85%, 0 85%); }
   90% { clip-path: polygon(0 55%, 100% 55%, 100% 65%, 0 65%); }
-`,z=n.div`
+`,L=n.div`
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -76,7 +76,7 @@ import{d as n,m as p,a as c,j as t}from"./index-DuzklH2U.js";import{T as I,M as 
   height: inherit;
   top: 0;
   left: 0;
-  background-image: url("/src/assets/img/seat/hero-banner.webp");
+  background-image: url("./hero-banner.webp");
   background-size: contain;
   background-position: right;
   overflow: hidden;
@@ -106,11 +106,11 @@ import{d as n,m as p,a as c,j as t}from"./index-DuzklH2U.js";import{T as I,M as 
   }
 
   &::before {
-    animation: ${M} 15s infinite linear;
+    animation: ${R} 15s infinite linear;
   }
 
   &::after {
-    animation: ${L} 15s infinite linear;
+    animation: ${z} 15s infinite linear;
   }
 `,B=n.h1`
   @keyframes come2life {
@@ -258,7 +258,7 @@ import{d as n,m as p,a as c,j as t}from"./index-DuzklH2U.js";import{T as I,M as 
   font-family: ${e=>e.theme.fontFamily.medium}, sans-serif;
   font-weight: 500;
 
-  @media screen and (min-width: ${O}px) and (max-width: ${r-1}px) and (orientation: landscape) {
+  @media screen and (min-width: ${T}px) and (max-width: ${r-1}px) and (orientation: landscape) {
     height: 8vh;
   }
 `,v=n.a`
@@ -298,7 +298,7 @@ import{d as n,m as p,a as c,j as t}from"./index-DuzklH2U.js";import{T as I,M as 
   padding-right: 1rem;
   position: relative;
   z-index: 1;
-`;function q(e,i){c.useEffect(()=>{function o(a){e.current&&!e.current.contains(a.target)&&i()}return document.addEventListener("mousedown",o),()=>{document.removeEventListener("mousedown",o)}},[e,i])}const V={en:{home:"HOME",aboutus:"ABOUT US",oursolutions:"OUR SOLUTIONS",workwithus:"WORK WITH US",partnership:"PARTNERSHIP"}},j={...V[R.getLanguage()]},Y=()=>{const[e,i]=c.useState(!1),o=c.useRef(null);q(o,()=>i(!1));const a=()=>{i(!e)};return t.jsxs(H,{ref:o,children:[t.jsxs(U,{children:[t.jsx(D,{href:m.HOME,"aria-label":"fancy-toggle",children:t.jsx(G,{src:"src/assets/img/seat/SEATCODE_LogotipoV_RGB_Negativo.svg",alt:"logo"})}),t.jsx(F,{onClick:a,children:t.jsx(X,{viewBox:"0 0 70 70",xmlns:"http://www.w3.org/2000/svg",children:e?t.jsxs(t.Fragment,{children:[t.jsx("path",{id:"path-top",d:"M20,25c0,0,22,0,30,0c16,0,18.89,40.71-.15,21.75C38.7,35.65,19.9,16.8,19.9,16.8",style:{strokeDasharray:"30px, 88px",strokeDashoffset:"-81px"}}),t.jsx("path",{id:"path-bottom",d:"M19.9,46.98c0,0,18.8-18.85,29.95-29.95C68.89-1.92,66,38.78,50,38.78c-8,0-30,0-30,0",style:{strokeDasharray:"30px, 88.1px",strokeDashoffset:"-6px"}})]}):t.jsxs(t.Fragment,{children:[t.jsx("path",{id:"path-top",d:"M20,25h30"}),t.jsx("path",{id:"path-middle",d:"M20,35h30"}),t.jsx("path",{id:"path-bottom",d:"M20,45h30"})]})})})]}),t.jsx(_,{$isOpen:e,children:t.jsxs(K,{children:[t.jsx(y,{children:t.jsx(v,{href:m.HOME,children:t.jsx(b,{children:j.home})})}),t.jsx(y,{children:t.jsx(v,{href:m.ABOUT,children:t.jsx(b,{children:j.aboutus})})}),t.jsx(y,{children:t.jsx(v,{href:m.OURSOLUTIONS,children:t.jsx(b,{children:j.oursolutions})})}),t.jsx(y,{children:t.jsx(v,{href:m.WORKWITHUS,children:t.jsx(b,{children:j.workwithus})})}),t.jsx(y,{children:t.jsx(v,{href:m.PARTNERSHIP,children:t.jsx(b,{children:j.partnership})})})]})})]})},J=p`
+`;function q(e,i){c.useEffect(()=>{function o(a){e.current&&!e.current.contains(a.target)&&i()}return document.addEventListener("mousedown",o),()=>{document.removeEventListener("mousedown",o)}},[e,i])}const V={en:{home:"HOME",aboutus:"ABOUT US",oursolutions:"OUR SOLUTIONS",workwithus:"WORK WITH US",partnership:"PARTNERSHIP"}},j={...V[A.getLanguage()]},Y=()=>{const[e,i]=c.useState(!1),o=c.useRef(null);q(o,()=>i(!1));const a=()=>{i(!e)};return t.jsxs(H,{ref:o,children:[t.jsxs(U,{children:[t.jsx(D,{href:m.HOME,"aria-label":"fancy-toggle",children:t.jsx(G,{src:"SEATCODE_LogotipoV_RGB_Negativo.svg",alt:"logo"})}),t.jsx(F,{onClick:a,children:t.jsx(X,{viewBox:"0 0 70 70",xmlns:"http://www.w3.org/2000/svg",children:e?t.jsxs(t.Fragment,{children:[t.jsx("path",{id:"path-top",d:"M20,25c0,0,22,0,30,0c16,0,18.89,40.71-.15,21.75C38.7,35.65,19.9,16.8,19.9,16.8",style:{strokeDasharray:"30px, 88px",strokeDashoffset:"-81px"}}),t.jsx("path",{id:"path-bottom",d:"M19.9,46.98c0,0,18.8-18.85,29.95-29.95C68.89-1.92,66,38.78,50,38.78c-8,0-30,0-30,0",style:{strokeDasharray:"30px, 88.1px",strokeDashoffset:"-6px"}})]}):t.jsxs(t.Fragment,{children:[t.jsx("path",{id:"path-top",d:"M20,25h30"}),t.jsx("path",{id:"path-middle",d:"M20,35h30"}),t.jsx("path",{id:"path-bottom",d:"M20,45h30"})]})})})]}),t.jsx(_,{$isOpen:e,children:t.jsxs(K,{children:[t.jsx(y,{children:t.jsx(v,{href:m.HOME,children:t.jsx(b,{children:j.home})})}),t.jsx(y,{children:t.jsx(v,{href:m.ABOUT,children:t.jsx(b,{children:j.aboutus})})}),t.jsx(y,{children:t.jsx(v,{href:m.OURSOLUTIONS,children:t.jsx(b,{children:j.oursolutions})})}),t.jsx(y,{children:t.jsx(v,{href:m.WORKWITHUS,children:t.jsx(b,{children:j.workwithus})})}),t.jsx(y,{children:t.jsx(v,{href:m.PARTNERSHIP,children:t.jsx(b,{children:j.partnership})})})]})})]})},J=p`
   0% { opacity: 1; }
   50% { opacity: 0; }
   100% { opacity: 1; }
@@ -315,14 +315,14 @@ import{d as n,m as p,a as c,j as t}from"./index-DuzklH2U.js";import{T as I,M as 
   .cursor {
     animation: ${({$isBlinking:e})=>e?J:"none"} 0.9s infinite;
   }
-`,Z=({animated:e})=>{const[i,o]=c.useState(""),[a,k]=c.useState(0),[f,g]=c.useState(!1),[S,x]=c.useState(!1);return c.useEffect(()=>{let l;return f?l=setTimeout(()=>{o(s=>s.slice(0,s.length-1))},100):l=setTimeout(()=>{i.length<e[a].length?o(s=>s+e[a][s.length]):(x(!0),setTimeout(()=>g(!0),1e3))},70),i===""&&f&&(g(!1),x(!1),k(s=>(s+1)%e.length)),()=>clearTimeout(l)},[i,f,a,e]),t.jsxs(Q,{$isBlinking:S,children:[i," ",t.jsx("span",{className:"cursor",children:"|"})]})},ee=n.canvas`
+`,Z=({animated:e})=>{const[i,o]=c.useState(""),[a,k]=c.useState(0),[f,g]=c.useState(!1),[E,x]=c.useState(!1);return c.useEffect(()=>{let l;return f?l=setTimeout(()=>{o(s=>s.slice(0,s.length-1))},100):l=setTimeout(()=>{i.length<e[a].length?o(s=>s+e[a][s.length]):(x(!0),setTimeout(()=>g(!0),1e3))},70),i===""&&f&&(g(!1),x(!1),k(s=>(s+1)%e.length)),()=>clearTimeout(l)},[i,f,a,e]),t.jsxs(Q,{$isBlinking:E,children:[i," ",t.jsx("span",{className:"cursor",children:"|"})]})},ee=n.canvas`
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: 0;
-`,te=()=>{const e=c.useRef(null);return c.useEffect(()=>{const i=e.current;if(!i)return;const o=i.getContext("2d");i.width=i.clientWidth,i.height=i.clientHeight;const a=(l,s,h,u,w,C)=>{let d=l,E=s;const T=()=>{o&&(o.beginPath(),o.arc(d,E,h,0,Math.PI*2),o.fillStyle=C,o.fill())};return{draw:T,update:()=>{d+=u,E+=w,(d+h>i.width||d-h<0)&&(u=-u),(E+h>i.height||E-h<0)&&(w=-w),T()}}},k=[],f=40,g=["#a7f9ab"];for(let l=0;l<f;l++){const s=Math.random()*1.5+1,h=Math.random()*i.width,u=Math.random()*i.height,w=(Math.random()-.5)*2,C=(Math.random()-.5)*2,d=g[Math.floor(Math.random()*g.length)];k.push(a(h,u,s,w,C,d))}const S=()=>{o&&(o.clearRect(0,0,i.width,i.height),k.forEach(l=>l.update()),requestAnimationFrame(S))};S();const x=()=>{i.width=i.clientWidth,i.height=i.clientHeight};return window.addEventListener("resize",x),()=>{window.removeEventListener("resize",x)}},[]),t.jsx(ee,{ref:e})},ie=p`
+`,te=()=>{const e=c.useRef(null);return c.useEffect(()=>{const i=e.current;if(!i)return;const o=i.getContext("2d");i.width=i.clientWidth,i.height=i.clientHeight;const a=(l,s,h,u,w,C)=>{let d=l,S=s;const O=()=>{o&&(o.beginPath(),o.arc(d,S,h,0,Math.PI*2),o.fillStyle=C,o.fill())};return{draw:O,update:()=>{d+=u,S+=w,(d+h>i.width||d-h<0)&&(u=-u),(S+h>i.height||S-h<0)&&(w=-w),O()}}},k=[],f=40,g=["#a7f9ab"];for(let l=0;l<f;l++){const s=Math.random()*1.5+1,h=Math.random()*i.width,u=Math.random()*i.height,w=(Math.random()-.5)*2,C=(Math.random()-.5)*2,d=g[Math.floor(Math.random()*g.length)];k.push(a(h,u,s,w,C,d))}const E=()=>{o&&(o.clearRect(0,0,i.width,i.height),k.forEach(l=>l.update()),requestAnimationFrame(E))};E();const x=()=>{i.width=i.clientWidth,i.height=i.clientHeight};return window.addEventListener("resize",x),()=>{window.removeEventListener("resize",x)}},[]),t.jsx(ee,{ref:e})},ie=p`
   to {
     transform: rotate(1turn);
   }
@@ -342,7 +342,7 @@ import{d as n,m as p,a as c,j as t}from"./index-DuzklH2U.js";import{T as I,M as 
     top: 50vw;
     right: 30vw;
   }
-  @media screen and (min-width: ${O}px) and (max-width: ${r-1}px) and (orientation: landscape) {
+  @media screen and (min-width: ${T}px) and (max-width: ${r-1}px) and (orientation: landscape) {
     top: 29vw;
     right: 19vw;
   }
@@ -350,7 +350,7 @@ import{d as n,m as p,a as c,j as t}from"./index-DuzklH2U.js";import{T as I,M as 
     top: 40vw;
     right: 25vw;
   }
-  @media screen and (min-width: ${N}px) {
+  @media screen and (min-width: ${M}px) {
     top: 40vw;
     right: 25vw;
   }
@@ -425,4 +425,4 @@ import{d as n,m as p,a as c,j as t}from"./index-DuzklH2U.js";import{T as I,M as 
   transform: scale(0);
   animation: ${le} 1.5s linear infinite;
   ${e=>e.delay&&`animation-delay: ${e.delay};`}
-`,pe=()=>t.jsxs(oe,{children:[t.jsx($,{children:"C"}),t.jsx(ce,{children:t.jsx(he,{})}),t.jsx(ae,{}),t.jsx($,{children:"D"}),t.jsx($,{children:"E"}),t.jsx($,{children:"."})]}),ue=({title:e,animated:i,subTitle:o,note:a})=>t.jsxs(A,{children:[t.jsx(Y,{}),t.jsx(te,{}),t.jsx(z,{}),t.jsx(pe,{}),t.jsx(B,{children:e}),o&&t.jsx(P,{children:o}),!!i&&t.jsx(Z,{animated:i}),t.jsx(W,{children:a})]});var de=(e=>(e.BOLD="bold",e.NORMAL="normal",e))(de||{});const we="INTRO",ye="/seatcode/src/assets/img/seat/";export{de as F,ue as H,we as I,ye as S};
+`,pe=()=>t.jsxs(oe,{children:[t.jsx($,{children:"C"}),t.jsx(ce,{children:t.jsx(he,{})}),t.jsx(ae,{}),t.jsx($,{children:"D"}),t.jsx($,{children:"E"}),t.jsx($,{children:"."})]}),xe=({title:e,animated:i,subTitle:o,note:a})=>t.jsxs(N,{children:[t.jsx(Y,{}),t.jsx(te,{}),t.jsx(L,{}),t.jsx(pe,{}),t.jsx(B,{children:e}),o&&t.jsx(P,{children:o}),!!i&&t.jsx(Z,{animated:i}),t.jsx(W,{children:a})]});export{xe as H};

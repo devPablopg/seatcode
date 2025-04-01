@@ -1,4 +1,4 @@
-import{d as a,m as l,j as t,R as g}from"./index-DuzklH2U.js";import{L as i,W as n,T as x,M as w}from"./LocaleService-C19YxyPP.js";import{I as $,S as f}from"./Types-DVQZy6Bd.js";import{S as y}from"./link-ZWr2pd5K.js";const v=a.section`
+import{d as a,m as l,j as t,R as g}from"./index-b__LjD7e.js";import{L as i,W as n,T as x,M as w}from"./LocaleService-C19YxyPP.js";import{S as $}from"./link-BuwL2cQo.js";var f=(e=>(e.BOLD="bold",e.NORMAL="normal",e))(f||{});const y="INTRO",v=a.section`
   display: flex;
   position: relative;
   flex-wrap: wrap;
@@ -76,7 +76,7 @@ import{d as a,m as l,j as t,R as g}from"./index-DuzklH2U.js";import{L as i,W as 
   font-size: clamp(1rem, 2.1vw, 4.5rem);
   margin: 1vw 0;
   animation: 2s ${h} ease-in-out;
-`,E=a.p`
+`,C=a.p`
   color: ${e=>e.theme.colors.white.hexa};
   text-align: left;
   font-size: clamp(12px, 1.3vw, 3rem);
@@ -100,10 +100,10 @@ import{d as a,m as l,j as t,R as g}from"./index-DuzklH2U.js";import{L as i,W as 
       font-weight: 400;
     }
   }
-`,C=a.span`
+`,E=a.span`
   display: flex;
   margin-bottom: 2rem;
-`,S=a.div`
+`,L=a.div`
   display: flex;
   margin: auto;
   width: 85vw;
@@ -182,7 +182,7 @@ import{d as a,m as l,j as t,R as g}from"./index-DuzklH2U.js";import{L as i,W as 
     opacity: 1;
     transform: translateY(0%);
   }
-`,G=a.div`
+`,S=a.div`
   position: relative;
   margin-top: 1vh;
   animation: 2s ${k} ease-in-out;
@@ -254,4 +254,4 @@ import{d as a,m as l,j as t,R as g}from"./index-DuzklH2U.js";import{L as i,W as 
       ${e=>e.$isRight?"left: -5vw;":"right: -5vw;"}
     }
   }
-`,L=({to:e,text:o,isRight:s=!1})=>t.jsxs(G,{children:[t.jsx(p,{href:e,children:o}),t.jsx(T,{$isRight:s,children:t.jsx(y,{})})]}),A=({isRight:e=!1,title:o,subtitle:s,paragraph:c,link:d,image:m})=>t.jsxs(v,{$isRight:e,children:[t.jsxs(b,{$isRight:e,children:[t.jsx(j,{children:o}),t.jsx(R,{children:s}),t.jsx(E,{$isRight:e,children:!!c.length&&c.map(r=>t.jsxs(g.Fragment,{children:[t.jsx("span",{className:`${r.font}`,children:r.text}),r.key.includes($)&&t.jsx(C,{})]},r.key))}),d&&t.jsx(L,{to:d.to,text:d.text,isRight:e})]}),t.jsx(S,{$isRight:e,children:!!m.length&&m.map(r=>t.jsx("img",{className:m.length===2?"twice":"single",src:`${f}`+r.src,alt:r.alt,loading:"lazy"},r.alt))})]});export{A as C,C as E,p as S,E as W,b as a,S as b,j as c};
+`,G=({to:e,text:o,isRight:s=!1})=>t.jsxs(S,{children:[t.jsx(p,{href:e,children:o}),t.jsx(T,{$isRight:s,children:t.jsx($,{})})]}),A=({isRight:e=!1,title:o,subtitle:s,paragraph:c,link:d,image:m})=>t.jsxs(v,{$isRight:e,children:[t.jsxs(b,{$isRight:e,children:[t.jsx(j,{children:o}),t.jsx(R,{children:s}),t.jsx(C,{$isRight:e,children:!!c.length&&c.map(r=>t.jsxs(g.Fragment,{children:[t.jsx("span",{className:`${r.font}`,children:r.text}),r.key.includes(y)&&t.jsx(E,{})]},r.key))}),d&&t.jsx(G,{to:d.to,text:d.text,isRight:e})]}),t.jsx(L,{$isRight:e,children:!!m.length&&m.map(r=>t.jsx("img",{className:m.length===2?"twice":"single",src:r.src,alt:r.alt,loading:"lazy"},r.alt))})]});export{A as C,E,f as F,p as S,C as W,b as a,L as b,j as c};

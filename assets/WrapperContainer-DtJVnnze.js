@@ -1,4 +1,4 @@
-import{L as t}from"./LocaleService-C19YxyPP.js";import{d as o}from"./index-b__LjD7e.js";const n=o.section`
+import{L as t}from"./LocaleService-C19YxyPP.js";import{d as o}from"./index-CoKY67DU.js";const n=o.section`
   main {
     box-sizing: border-box;
     min-height: 100vh;

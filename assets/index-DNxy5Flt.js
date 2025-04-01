@@ -1,4 +1,4 @@
-import{d as a,m as l,j as t,R as g}from"./index-b__LjD7e.js";import{L as i,W as n,T as x,M as w}from"./LocaleService-C19YxyPP.js";import{S as $}from"./link-BuwL2cQo.js";var f=(e=>(e.BOLD="bold",e.NORMAL="normal",e))(f||{});const y="INTRO",v=a.section`
+import{d as a,m as l,j as t,R as g}from"./index-CoKY67DU.js";import{L as i,W as n,T as x,M as w}from"./LocaleService-C19YxyPP.js";import{S as $}from"./link-CY1zzybz.js";var f=(e=>(e.BOLD="bold",e.NORMAL="normal",e))(f||{});const y="INTRO",v=a.section`
   display: flex;
   position: relative;
   flex-wrap: wrap;

@@ -106,7 +106,7 @@ const Integrity = () => {
               </p>
               <p>
                 <a
-                  href="/src/assets/docs/SEAT_CODE_Código_de_Conducta_ESP_OCT_2024.pdf"
+                  href="/seatcode/src/assets/docs/SEAT_CODE_Código_de_Conducta_ESP_OCT_2024.pdf"
                   target="_blank"
                 >
                   Descargar versión en español
@@ -114,7 +114,7 @@ const Integrity = () => {
               </p>
               <p>
                 <a
-                  href="/src/assets/docs/SEAT_CODE_Code_of_Conduct_ENG_OCT_2024.pdf"
+                  href="/seatcode/src/assets/docs/SEAT_CODE_Code_of_Conduct_ENG_OCT_2024.pdf"
                   target="_blank"
                 >
                   Download English version
@@ -132,7 +132,7 @@ const Integrity = () => {
               </p>
               <p>
                 <a
-                  href="/src/assets/docs/CdC_Socios_Comerciales_2023_ESP-ENG.pdf"
+                  href="/seatcode/src/assets/docs/CdC_Socios_Comerciales_2023_ESP-ENG.pdf"
                   target="_blank"
                 >
                   Download English & Spanish version
@@ -150,7 +150,7 @@ const Integrity = () => {
               </p>
               <p>
                 <a
-                  href="/src/assets/docs/Guia_anticorrupcion_ES_10_2023.pdf"
+                  href="/seatcode/src/assets/docs/Guia_anticorrupcion_ES_10_2023.pdf"
                   target="_blank"
                 >
                   Descargar versión en español
@@ -158,7 +158,7 @@ const Integrity = () => {
               </p>
               <p>
                 <a
-                  href="/src/assets/docs/Anticorruption_Guide_EN_10_2023.pdf"
+                  href="/seatcode/src/assets/docs/Anticorruption_Guide_EN_10_2023.pdf"
                   target="_blank"
                 >
                   Download English version

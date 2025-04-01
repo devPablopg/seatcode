@@ -11,4 +11,4 @@ export interface Paragraph {
     text?: string;
 }
 
-export const SRC_IMAGES_PREFIX = '/src/assets/img/seat/'
+export const SRC_IMAGES_PREFIX = '/seatcode/src/assets/img/seat/'

@@ -1,4 +1,4 @@
-import{d as a,m as l,j as t,R as g}from"./index-lp-62YDm.js";import{L as i,W as n,T as x,M as w}from"./LocaleService-C19YxyPP.js";import{I as $,S as f}from"./Types-GvHC6Jp-.js";import{S as y}from"./link-BvaIYyJk.js";const v=a.section`
+import{d as a,m as l,j as t,R as g}from"./index-DuzklH2U.js";import{L as i,W as n,T as x,M as w}from"./LocaleService-C19YxyPP.js";import{I as $,S as f}from"./Types-DVQZy6Bd.js";import{S as y}from"./link-ZWr2pd5K.js";const v=a.section`
   display: flex;
   position: relative;
   flex-wrap: wrap;

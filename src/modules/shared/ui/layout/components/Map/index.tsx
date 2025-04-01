@@ -48,7 +48,7 @@ const GoogleMapComponent = () => {
               }}
             >
               <WrapperMarkerInfo>
-                <img src="src/assets/img/seat/SEATCODE_LogotipoV_RGB_Negativo.svg" alt="code logo"></img>
+                <img src="SEATCODE_LogotipoV_RGB_Negativo.svg" alt="code logo"></img>
                 <h3>{contactTranslations.theGarage}</h3>
                 <p>{contactTranslations.address}</p>
                 <p>{contactTranslations.zipCodeCity}</p>

@@ -63,27 +63,27 @@ const WorkWithUs = () => {
       <WrapperCenteredTitle>{workWithUsTranslations.ourPerks}</WrapperCenteredTitle>
       <WrapperPerks>
         <WrapperItemPerk>
-          <img src="src/assets/img/icons/save-money.svg" alt="save-money" />
+          <img src="./src/assets/img/icons/save-money.svg" alt="save-money" />
           <p>{workWithUsTranslations.competitiveSalary}</p>
         </WrapperItemPerk>
         <WrapperItemPerk>
-          <img src="src/assets/img/icons/apple.svg" alt="snack" />
+          <img src="./src/assets/img/icons/apple.svg" alt="snack" />
           <p>{workWithUsTranslations.dailySnacks}</p>
         </WrapperItemPerk>
         <WrapperItemPerk>
-          <img src="src/assets/img/icons/book.svg" alt="book" />
+          <img src="./src/assets/img/icons/book.svg" alt="book" />
           <p>{workWithUsTranslations.culture}</p>
         </WrapperItemPerk>
         <WrapperItemPerk>
-          <img src="src/assets/img/icons/screen.svg" alt="screen" />
+          <img src="./src/assets/img/icons/screen.svg" alt="screen" />
           <p>{workWithUsTranslations.gearsNeeds}</p>
         </WrapperItemPerk>
         <WrapperItemPerk>
-          <img src="src/assets/img/icons/time.svg" alt="clock" />
+          <img src="./src/assets/img/icons/time.svg" alt="clock" />
           <p>{workWithUsTranslations.flexibleWorking}</p>
         </WrapperItemPerk>
         <WrapperItemPerk>
-          <img src="src/assets/img/icons/umbrella.svg" alt="umbrella" />
+          <img src="./src/assets/img/icons/umbrella.svg" alt="umbrella" />
           <p>{workWithUsTranslations.closeBeach}</p>
         </WrapperItemPerk>
       </WrapperPerks>

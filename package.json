@@ -1,7 +1,7 @@
 {
   "name": "new-code",
-  "homepage": "https://devpablopg.github.io/new-sc/",
-  "private": true,
+  "homepage": "https://devpablopg.github.io/seatcode/",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {

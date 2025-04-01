@@ -40,7 +40,7 @@ const AboutUs = () => {
       </WrapperCard>
       <WrapperPortfolioBg>
         <img
-          src="src/assets/img/seat/portfolio-opacidad.webp"
+          src="portfolio-opacidad.webp"
           alt="seat-code-terrace"
         />
         <WrapperPortfolioTitle>
@@ -50,7 +50,7 @@ const AboutUs = () => {
       <WrapperPortfolioContainer>
         <WrapperPortfolioCard $delay={0}>
           <img
-            src="src//assets/img/seat/portfolio-1.webp"
+            src="portfolio-1.webp"
             alt="portfolio-1"
             loading="lazy"
           />
@@ -59,7 +59,7 @@ const AboutUs = () => {
         </WrapperPortfolioCard>
         <WrapperPortfolioCard $delay={0.2}>
           <img
-            src="src//assets/img/seat/portfolio-3.webp"
+            src="portfolio-3.webp"
             alt="portfolio-3"
             loading="lazy"
           />
@@ -68,7 +68,7 @@ const AboutUs = () => {
         </WrapperPortfolioCard>
         <WrapperPortfolioCard $delay={0.1}>
           <img
-            src="src//assets/img/seat/portfolio-2.webp"
+            src="portfolio-2.webp"
             alt="portfolio-2"
             loading="lazy"
           />
@@ -77,7 +77,7 @@ const AboutUs = () => {
         </WrapperPortfolioCard>
         <WrapperPortfolioCard $delay={0.3}>
           <img
-            src="src//assets/img/seat/portfolio-4.webp"
+            src="portfolio-4.webp"
             alt="portfolio-4"
             loading="lazy"
           />

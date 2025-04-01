@@ -7,7 +7,7 @@ import WrapperCard, {
   WrapperSubtitle,
   WrapperTitle,
 } from "./styles/WrapperCard";
-import { INTRO, Paragraph, SRC_IMAGES_PREFIX } from "modules/shared/domain/Types";
+import { INTRO, Paragraph } from "modules/shared/domain/Types";
 import Link from "../../elements/Link";
 
 interface ImageInfo {
@@ -65,7 +65,7 @@ const Card = ({
               <img
                 key={img.alt}
                 className={image.length === 2 ? "twice" : "single"}
-                src={`${SRC_IMAGES_PREFIX}` + img.src}
+                src={img.src}
                 alt={img.alt}
                 loading="lazy"
               />

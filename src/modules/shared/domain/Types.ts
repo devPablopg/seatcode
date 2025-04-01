@@ -10,5 +10,3 @@ export interface Paragraph {
     font?: FontWeightType.BOLD | FontWeightType.NORMAL;
     text?: string;
 }
-
-export const SRC_IMAGES_PREFIX = '/seatcode/src/assets/img/seat/'

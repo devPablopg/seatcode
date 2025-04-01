@@ -36,7 +36,7 @@ const FancyNavbar = () => {
       <TogglerBar>
         <Brand href={Routes.HOME} aria-label="fancy-toggle">
           <BrandImage
-            src="src/assets/img/seat/SEATCODE_LogotipoV_RGB_Negativo.svg"
+            src="SEATCODE_LogotipoV_RGB_Negativo.svg"
             alt="logo"
           />
         </Brand>

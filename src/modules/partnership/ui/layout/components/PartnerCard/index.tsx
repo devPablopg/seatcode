@@ -1,4 +1,3 @@
-import { SRC_IMAGES_PREFIX } from "modules/shared/domain/Types";
 import React from "react";
 import WrapperPartnerCard, { WrapperContent, WrapperImage, WrapperParagraph, WrapperTitle } from "./styles/WrapperPartnerCard";
 
@@ -26,7 +25,7 @@ const PartnerCard = ({
       </WrapperContent>
       <WrapperImage>
         <img
-          src={`${SRC_IMAGES_PREFIX}` + image.src}
+          src={image.src}
           alt={image.alt}
           loading="lazy"
         />

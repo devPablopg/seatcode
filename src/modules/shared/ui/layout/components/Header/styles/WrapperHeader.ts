@@ -85,7 +85,7 @@ const WrapperOverlay = styled.div`
   height: inherit;
   top: 0;
   left: 0;
-  background-image: url("/src/assets/img/seat/hero-banner.webp");
+  background-image: url("./hero-banner.webp");
   background-size: contain;
   background-position: right;
   overflow: hidden;

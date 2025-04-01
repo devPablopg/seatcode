@@ -68,7 +68,7 @@ const WrapperVideo = styled.div`
   justify-content: center;
   align-items: center;
   position: absolute;
-  background-image: url("/src/assets/img/seat/video.webp");
+  background-image: url("video.webp");
   top: 0;
   left: 0;
   width: 100%;

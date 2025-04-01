@@ -22,7 +22,7 @@ export const WrapperForm = styled.form`
       rgba(28, 28, 28, 1),
       rgba(167, 249, 171, 0.3)
     ),
-    url("/src/assets/img/seat/street.webp");
+    url("./street.webp");
   background-size: cover;
   background-position: center;
 

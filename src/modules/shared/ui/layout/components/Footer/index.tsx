@@ -11,11 +11,11 @@ const footerTranslations: FooterTranslations = {
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterLink href={`/#${Routes.TERMS_OF_USE}`}>{footerTranslations.terms}</FooterLink>
-      <FooterLink href={`/#${Routes.PRIVACY_POLICY}`}>
+      <FooterLink href={Routes.TERMS_OF_USE}>{footerTranslations.terms}</FooterLink>
+      <FooterLink href={Routes.PRIVACY_POLICY}>
         {footerTranslations.privacy}
       </FooterLink>
-      <FooterLink href={`/#${Routes.INTEGRITY}`}>
+      <FooterLink href={Routes.INTEGRITY}>
         {footerTranslations.integrity}
       </FooterLink>
       <FooterLink
@@ -24,7 +24,7 @@ const Footer = () => {
       >
         {footerTranslations.environment}
       </FooterLink>
-      <FooterLink href={`/#${Routes.WHISTLEBLOWER}`}>
+      <FooterLink href={Routes.WHISTLEBLOWER}>
         {footerTranslations.whistleblower}
       </FooterLink>
     </FooterContainer>

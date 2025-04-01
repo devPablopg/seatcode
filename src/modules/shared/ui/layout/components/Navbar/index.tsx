@@ -79,22 +79,22 @@ const FancyNavbar = () => {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href={`/#${Routes.ABOUT}`}>
+            <NavLink href={Routes.ABOUT}>
               <LinkContent>{navbarTranslations.aboutus}</LinkContent>
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href={`/#${Routes.OURSOLUTIONS}`}>
+            <NavLink href={Routes.OURSOLUTIONS}>
               <LinkContent>{navbarTranslations.oursolutions}</LinkContent>
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href={`/#${Routes.WORKWITHUS}`}>
+            <NavLink href={Routes.WORKWITHUS}>
               <LinkContent>{navbarTranslations.workwithus}</LinkContent>
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href={`/#${Routes.PARTNERSHIP}`}>
+            <NavLink href={Routes.PARTNERSHIP}>
               <LinkContent>{navbarTranslations.partnership}</LinkContent>
             </NavLink>
           </NavItem>

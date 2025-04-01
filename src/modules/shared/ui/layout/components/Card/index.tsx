@@ -56,7 +56,7 @@ const Card = ({
               );
             })}
         </WrapperParagraph>
-        {link && <Link to={`/#${link.to}`} text={link.text} isRight={isRight} />}
+        {link && <Link to={link.to} text={link.text} isRight={isRight} />}
       </WrapperContent>
       <WrapperImage $isRight={isRight}>
         {!!image.length &&

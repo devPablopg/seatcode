@@ -86,7 +86,7 @@ const AboutUs = () => {
         </WrapperPortfolioCard>
       </WrapperPortfolioContainer>
       <WrapperItem>
-        <StyledLink href={`/#${Routes.OURSOLUTIONS}`}>
+        <StyledLink href={Routes.OURSOLUTIONS}>
           {aboutTranslations.explore}
         </StyledLink>
       </WrapperItem>

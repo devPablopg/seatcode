@@ -1,4 +1,4 @@
-import{d as a,m as l,j as t,R as g}from"./index-HLxl478O.js";import{L as i,W as n,T as x,M as w}from"./LocaleService-C19YxyPP.js";import{I as $,S as f}from"./Types-YPVsMaqX.js";import{S as y}from"./link-CkeWu1vV.js";const v=a.section`
+import{d as a,m as l,j as t,R as g}from"./index-BXnVKfS_.js";import{L as i,W as n,T as x,M as w}from"./LocaleService-C19YxyPP.js";import{I as $,S as f}from"./Types-DYASiWGv.js";import{S as y}from"./link-aGqeJfKl.js";const v=a.section`
   display: flex;
   position: relative;
   flex-wrap: wrap;
@@ -254,4 +254,4 @@ import{d as a,m as l,j as t,R as g}from"./index-HLxl478O.js";import{L as i,W as 
       ${e=>e.$isRight?"left: -5vw;":"right: -5vw;"}
     }
   }
-`,L=({to:e,text:o,isRight:s=!1})=>t.jsxs(G,{children:[t.jsx(p,{href:e,children:o}),t.jsx(T,{$isRight:s,children:t.jsx(y,{})})]}),A=({isRight:e=!1,title:o,subtitle:s,paragraph:c,link:d,image:m})=>t.jsxs(v,{$isRight:e,children:[t.jsxs(b,{$isRight:e,children:[t.jsx(j,{children:o}),t.jsx(R,{children:s}),t.jsx(E,{$isRight:e,children:!!c.length&&c.map(r=>t.jsxs(g.Fragment,{children:[t.jsx("span",{className:`${r.font}`,children:r.text}),r.key.includes($)&&t.jsx(C,{})]},r.key))}),d&&t.jsx(L,{to:`/#${d.to}`,text:d.text,isRight:e})]}),t.jsx(S,{$isRight:e,children:!!m.length&&m.map(r=>t.jsx("img",{className:m.length===2?"twice":"single",src:`${f}`+r.src,alt:r.alt,loading:"lazy"},r.alt))})]});export{A as C,C as E,p as S,E as W,b as a,S as b,j as c};
+`,L=({to:e,text:o,isRight:s=!1})=>t.jsxs(G,{children:[t.jsx(p,{href:e,children:o}),t.jsx(T,{$isRight:s,children:t.jsx(y,{})})]}),A=({isRight:e=!1,title:o,subtitle:s,paragraph:c,link:d,image:m})=>t.jsxs(v,{$isRight:e,children:[t.jsxs(b,{$isRight:e,children:[t.jsx(j,{children:o}),t.jsx(R,{children:s}),t.jsx(E,{$isRight:e,children:!!c.length&&c.map(r=>t.jsxs(g.Fragment,{children:[t.jsx("span",{className:`${r.font}`,children:r.text}),r.key.includes($)&&t.jsx(C,{})]},r.key))}),d&&t.jsx(L,{to:d.to,text:d.text,isRight:e})]}),t.jsx(S,{$isRight:e,children:!!m.length&&m.map(r=>t.jsx("img",{className:m.length===2?"twice":"single",src:`${f}`+r.src,alt:r.alt,loading:"lazy"},r.alt))})]});export{A as C,C as E,p as S,E as W,b as a,S as b,j as c};

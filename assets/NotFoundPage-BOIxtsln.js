@@ -1,4 +1,4 @@
-import{d as a,j as r}from"./index-Co_Nmcig.js";import{L as o,M as i,W as t,a as s}from"./LocaleService-C19YxyPP.js";const d=a.div`
+import{d as a,j as r}from"./index-DzQ5se_Z.js";import{L as o,M as i,W as t,a as s}from"./LocaleService-C19YxyPP.js";const d=a.div`
   display: flex;
   flex-wrap: wrap;
 
@@ -108,4 +108,4 @@ import{d as a,j as r}from"./index-Co_Nmcig.js";import{L as o,M as i,W as t,a as 
     padding: 2.2rem 4rem;
     border: 3px solid ${e=>e.theme.colors.primaryGreen.hexa};
   }
-`,m={en:{messageFirstPart:"Sorry, we couldn't find",messageSecondPart:"what you are looking for",messageThirdPart:"Looks that this page doesn't exist",backHome:"take me back home"}},n={...m[s.getLanguage()]},w=()=>r.jsxs(d,{children:[r.jsxs("div",{children:[r.jsx(h,{src:"src/assets/img/seat/inside.webp",alt:"office inside",loading:"lazy"}),r.jsx("h1",{children:"404"})]}),r.jsxs(c,{children:[r.jsxs("h1",{children:[n.messageFirstPart,r.jsx("br",{}),n.messageSecondPart]}),r.jsx("p",{children:n.messageThirdPart}),r.jsx("div",{children:r.jsx(l,{href:"../",children:n.backHome})})]})]});export{w as default};
+`,m={en:{messageFirstPart:"Sorry! we couldn't find",messageSecondPart:"what you are looking for",messageThirdPart:"Looks that this page doesn't exist",backHome:"take me back home"}},n={...m[s.getLanguage()]},w=()=>r.jsxs(d,{children:[r.jsxs("div",{children:[r.jsx(h,{src:"src/assets/img/seat/inside.webp",alt:"office inside",loading:"lazy"}),r.jsx("h1",{children:"404"})]}),r.jsxs(c,{children:[r.jsxs("h1",{children:[n.messageFirstPart,r.jsx("br",{}),n.messageSecondPart]}),r.jsx("p",{children:n.messageThirdPart}),r.jsx("div",{children:r.jsx(l,{href:"../",children:n.backHome})})]})]});export{w as default};

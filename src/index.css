@@ -1,0 +1,22 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+@font-face {
+  font-family: "SEATBCN-Condensed";
+  src: url("assets/fonts/SEATBCN-Condensed.otf") format("opentype"),
+}
+@font-face {
+  font-family: "SEATBCN-CondensedMedium";
+  src: url("assets/fonts/SEATBCN-CondensedMedium.otf") format("opentype"),
+}
+@font-face {
+  font-family: "SEATBCN-CondensedBold";
+  src: url("assets/fonts/SEATBCN-CondensedBold.otf") format("opentype"),
+}
+
+@font-face {
+  font-family: "SEATBCN-CondensedBlack";
+  src: url("assets/fonts/SEATBCN-CondensedBlack.otf") format("opentype"),
+}
+
+
+

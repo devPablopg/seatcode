@@ -53,7 +53,7 @@ const App = () => {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/integrity-and-compliance" element={<Integrity />} />
           <Route path="/whistleblower-channel" element={<Whistleblower />} />
-          <Route path="*" element={<NotFoundPage />} />
+          <Route path="/*" element={<NotFoundPage />} />
         </Routes>
       </Router>
     </>

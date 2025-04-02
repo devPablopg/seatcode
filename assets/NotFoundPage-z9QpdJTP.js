@@ -1,4 +1,4 @@
-import{d as a,j as r}from"./index-vEfM4k_Q.js";import{L as o,M as i,W as t,a as s}from"./LocaleService-C19YxyPP.js";const d=a.div`
+import{d as i,j as r}from"./index-CsnI84zF.js";import{L as o,M as a,W as t,a as s}from"./LocaleService-C19YxyPP.js";const d=i.div`
   display: flex;
   flex-wrap: wrap;
 
@@ -20,11 +20,11 @@ import{d as a,j as r}from"./index-vEfM4k_Q.js";import{L as o,M as i,W as t,a as 
     flex-direction: row-reverse;
   }
 
-  @media screen and (min-width: ${i}px) and (max-width: ${o}px) and (orientation: landscape) {
+  @media screen and (min-width: ${a}px) and (max-width: ${o}px) and (orientation: landscape) {
     flex-wrap: nowrap;
     flex-direction: row-reverse;
   }
-`,h=a.img`
+`,h=i.img`
   width: 100vw;
   height: 50vh;
   object-fit: cover;
@@ -34,11 +34,11 @@ import{d as a,j as r}from"./index-vEfM4k_Q.js";import{L as o,M as i,W as t,a as 
     height: 100vh;
   }
 
-  @media screen and (min-width: ${i}px) and (max-width: ${o}px) and (orientation: landscape) {
+  @media screen and (min-width: ${a}px) and (max-width: ${o}px) and (orientation: landscape) {
     width: 50vw;
     height: 100vh;
   }
-`,c=a.div`
+`,c=i.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,11 +71,11 @@ import{d as a,j as r}from"./index-vEfM4k_Q.js";import{L as o,M as i,W as t,a as 
     height: 100vh;
   }
 
-  @media screen and (min-width: ${i}px) and (max-width: ${o}px) and (orientation: landscape) {
+  @media screen and (min-width: ${a}px) and (max-width: ${o}px) and (orientation: landscape) {
     width: 50vw;
     height: 100vh;
   }
-`,l=a.a`
+`,l=i.a`
   display: inline-block;
   padding: 0.8rem 2.5rem;
   font-family: "SEATBCN-Condensed", sans-serif;
@@ -108,4 +108,4 @@ import{d as a,j as r}from"./index-vEfM4k_Q.js";import{L as o,M as i,W as t,a as 
     padding: 2.2rem 4rem;
     border: 3px solid ${e=>e.theme.colors.primaryGreen.hexa};
   }
-`,m={en:{messageFirstPart:"Sorry, we couldn't find",messageSecondPart:"what you are looking for",messageThirdPart:"Looks that this page doesn't exist",backHome:"take me back home"}},n={...m[s.getLanguage()]},w=()=>r.jsxs(d,{children:[r.jsxs("div",{children:[r.jsx(h,{src:"src/assets/img/seat/inside.webp",alt:"office inside",loading:"lazy"}),r.jsx("h1",{children:"404"})]}),r.jsxs(c,{children:[r.jsxs("h1",{children:[n.messageFirstPart,r.jsx("br",{}),n.messageSecondPart]}),r.jsx("p",{children:n.messageThirdPart}),r.jsx("div",{children:r.jsx(l,{href:"../",children:n.backHome})})]})]});export{w as default};
+`,m={en:{messageFirstPart:"Sorry, we couldn't find",messageSecondPart:"what you are looking for",messageThirdPart:"Looks that this page doesn't exist",backHome:"take me back home"}},n={...m[s.getLanguage()]},w=()=>r.jsxs(d,{children:[r.jsxs("div",{children:[r.jsx(h,{src:"inside.webp",alt:"office inside",loading:"lazy"}),r.jsx("h1",{children:"404"})]}),r.jsxs(c,{children:[r.jsxs("h1",{children:[n.messageFirstPart,r.jsx("br",{}),n.messageSecondPart]}),r.jsx("p",{children:n.messageThirdPart}),r.jsx("div",{children:r.jsx(l,{href:"../",children:n.backHome})})]})]});export{w as default};

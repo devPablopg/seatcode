@@ -1,4 +1,4 @@
-import{d as a,j as r}from"./index-zZ5m1-E3.js";import{L as o,M as i,W as t,a as s}from"./LocaleService-C19YxyPP.js";const d=a.div`
+import{d as a,j as r}from"./index-vEfM4k_Q.js";import{L as o,M as i,W as t,a as s}from"./LocaleService-C19YxyPP.js";const d=a.div`
   display: flex;
   flex-wrap: wrap;
 

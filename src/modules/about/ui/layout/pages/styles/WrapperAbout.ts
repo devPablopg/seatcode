@@ -169,7 +169,7 @@ const WrapperItem = styled.div`
 
 const WrapperLinkedin = styled.div`
   height: 70vh;
-  overflow: hidden;
+  width: 90%;
   margin: 5vw auto;
 
   @media screen and (min-width: ${MOBILE}px) and (max-width: ${LAPTOP}px) and (orientation: landscape) {

@@ -24,15 +24,21 @@ const aboutTranslations: AboutTranslations = {
 };
 
 const AboutUs = () => {
-  useEffect(() => {
-    if (!document.querySelector('script[src*="sociablekit.com"]')) {
-      const script = document.createElement("script");
-      script.src =
-        "https://widgets.sociablekit.com/linkedin-page-posts/widget.js";
-      script.async = true;
-      document.body.appendChild(script);
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (!document.querySelector('script[src*="sociablekit.com"]')) {
+  //     const script = document.createElement("script");
+  //     script.src = "https://widgets.sociablekit.com/linkedin-page-posts/widget.js";
+  //     script.async = true;
+  //     script.onload = () => {
+  //       console.log("SociableKit script loaded successfully");
+  //     };
+  //     script.onerror = () => {
+  //       console.error("Failed to load SociableKit script");
+  //     };
+  //     document.body.appendChild(script);
+  //   }
+  // }, []);
+  
 
   return (
     <>
@@ -85,10 +91,11 @@ const AboutUs = () => {
         <WrapperTitle>{aboutTranslations.news}</WrapperTitle>
       </WrapperItem>
       <WrapperLinkedin>
-        <div
+        {/* <div
           className="sk-ww-linkedin-page-post"
           data-embed-id="25523041"
-        ></div>
+        ></div> */}
+        <iframe src='https://widgets.sociablekit.com/linkedin-page-posts/iframe/25523041' frameBorder='0' width='100%' height='100%' title='LinkedIn Posts'></iframe>
       </WrapperLinkedin>
       <WrapperItem>
         <StyledLink href={Routes.CODE_LINKEDIN} target="_blank">

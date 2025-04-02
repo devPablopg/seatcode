@@ -145,7 +145,7 @@ const WrapperItemPerk = styled.div`
     width: 14%;
   }
 
-  img {
+  svg {
     width: clamp(40px, 7.8vw, 180px);
     height: clamp(40px, 7.8vw, 180px);
   }

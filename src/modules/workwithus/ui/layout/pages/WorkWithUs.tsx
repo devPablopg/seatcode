@@ -17,6 +17,12 @@ import {
 import Card from "modules/shared/ui/layout/components/Card";
 import Footer from "modules/shared/ui/layout/components/Footer";
 import WorkWithUsForm from "../components/Form";
+import MoneyIcon from "assets/img/icons/save-money.svg?react";
+import AppleIcon from "assets/img/icons/apple.svg?react";
+import BookIcon from "assets/img/icons/book.svg?react";
+import ScreenIcon from "assets/img/icons/screen.svg?react";
+import ClockIcon from "assets/img/icons/time.svg?react";
+import UmbrellaIcon from "assets/img/icons/umbrella.svg?react";
 
 const workWithUsTranslations: WorkWithUsTranslations = {
   ...WorkWithUsText[LocaleService.getLanguage()],
@@ -63,27 +69,27 @@ const WorkWithUs = () => {
       <WrapperCenteredTitle>{workWithUsTranslations.ourPerks}</WrapperCenteredTitle>
       <WrapperPerks>
         <WrapperItemPerk>
-          <img src="./src/assets/img/icons/save-money.svg" alt="save-money" />
+          <MoneyIcon />
           <p>{workWithUsTranslations.competitiveSalary}</p>
         </WrapperItemPerk>
         <WrapperItemPerk>
-          <img src="./src/assets/img/icons/apple.svg" alt="snack" />
+          <AppleIcon />
           <p>{workWithUsTranslations.dailySnacks}</p>
         </WrapperItemPerk>
         <WrapperItemPerk>
-          <img src="./src/assets/img/icons/book.svg" alt="book" />
+          <BookIcon />
           <p>{workWithUsTranslations.culture}</p>
         </WrapperItemPerk>
         <WrapperItemPerk>
-          <img src="./src/assets/img/icons/screen.svg" alt="screen" />
+          <ScreenIcon />
           <p>{workWithUsTranslations.gearsNeeds}</p>
         </WrapperItemPerk>
         <WrapperItemPerk>
-          <img src="./src/assets/img/icons/time.svg" alt="clock" />
+          <ClockIcon />
           <p>{workWithUsTranslations.flexibleWorking}</p>
         </WrapperItemPerk>
         <WrapperItemPerk>
-          <img src="./src/assets/img/icons/umbrella.svg" alt="umbrella" />
+          <UmbrellaIcon />
           <p>{workWithUsTranslations.closeBeach}</p>
         </WrapperItemPerk>
       </WrapperPerks>

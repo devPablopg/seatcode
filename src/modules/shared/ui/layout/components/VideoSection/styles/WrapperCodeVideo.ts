@@ -83,5 +83,23 @@ const WrapperVideo = styled.div`
   }
 `;
 
-export { WrapperVideo };
+const CloseButton = styled.button`
+  all: unset;
+  position: absolute;
+  top: 1vh;
+  right: 0.5vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+
+  svg {
+    width: 25px;
+    height: 25px;
+  }
+`;
+
+export { WrapperVideo, CloseButton };
 export default WrapperCodeVideo;

@@ -17,7 +17,7 @@ const NotFoundPage = () => {
     <NotFoundContainer>
       <div>
         <InsideImage
-          src="src/assets/img/seat/inside.webp"
+          src="inside.webp"
           alt="office inside"
           loading="lazy"
         />

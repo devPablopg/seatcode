@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import LocaleService from "infrastructure/i18n/LocaleService";
 import { AboutText } from "modules/about/infrastructure/i18n/AboutText";
 import { AboutTranslations } from "modules/about/infrastructure/i18n/typing";
@@ -24,6 +24,16 @@ const aboutTranslations: AboutTranslations = {
 };
 
 const AboutUs = () => {
+  useEffect(() => {
+    if (!document.querySelector('script[src*="sociablekit.com"]')) {
+      const script = document.createElement("script");
+      script.src =
+        "https://widgets.sociablekit.com/linkedin-page-posts/widget.js";
+      script.async = true;
+      document.body.appendChild(script);
+    }
+  }, []);
+
   return (
     <>
       <Header
@@ -39,48 +49,29 @@ const AboutUs = () => {
         />
       </WrapperCard>
       <WrapperPortfolioBg>
-        <img
-          src="portfolio-opacidad.webp"
-          alt="seat-code-terrace"
-        />
+        <img src="portfolio-opacidad.webp" alt="seat-code-terrace" />
         <WrapperPortfolioTitle>
           {aboutTranslations.portfolio}
         </WrapperPortfolioTitle>
       </WrapperPortfolioBg>
       <WrapperPortfolioContainer>
         <WrapperPortfolioCard $delay={0}>
-          <img
-            src="portfolio-1.webp"
-            alt="portfolio-1"
-            loading="lazy"
-          />
+          <img src="portfolio-1.webp" alt="portfolio-1" loading="lazy" />
           <p>{aboutTranslations.portfolio1Title}</p>
           <p>{aboutTranslations.portfolio1Paragraph}</p>
         </WrapperPortfolioCard>
         <WrapperPortfolioCard $delay={0.2}>
-          <img
-            src="portfolio-3.webp"
-            alt="portfolio-3"
-            loading="lazy"
-          />
+          <img src="portfolio-3.webp" alt="portfolio-3" loading="lazy" />
           <p>{aboutTranslations.portfolio2Title}</p>
           <p>{aboutTranslations.portfolio2Paragraph}</p>
         </WrapperPortfolioCard>
         <WrapperPortfolioCard $delay={0.1}>
-          <img
-            src="portfolio-2.webp"
-            alt="portfolio-2"
-            loading="lazy"
-          />
+          <img src="portfolio-2.webp" alt="portfolio-2" loading="lazy" />
           <p>{aboutTranslations.portfolio3Title}</p>
           <p>{aboutTranslations.portfolio3Paragraph}</p>
         </WrapperPortfolioCard>
         <WrapperPortfolioCard $delay={0.3}>
-          <img
-            src="portfolio-4.webp"
-            alt="portfolio-4"
-            loading="lazy"
-          />
+          <img src="portfolio-4.webp" alt="portfolio-4" loading="lazy" />
           <p>{aboutTranslations.portfolio4Title}</p>
           <p>{aboutTranslations.portfolio4Paragraph}</p>
         </WrapperPortfolioCard>
@@ -94,11 +85,10 @@ const AboutUs = () => {
         <WrapperTitle>{aboutTranslations.news}</WrapperTitle>
       </WrapperItem>
       <WrapperLinkedin>
-        <div className="sk-ww-linkedin-page-post" data-embed-id="25523041"></div>
-        <script
-          src="https://widgets.sociablekit.com/linkedin-page-posts/widget.js"
-          defer
-        ></script>
+        <div
+          className="sk-ww-linkedin-page-post"
+          data-embed-id="25523041"
+        ></div>
       </WrapperLinkedin>
       <WrapperItem>
         <StyledLink href={Routes.CODE_LINKEDIN} target="_blank">

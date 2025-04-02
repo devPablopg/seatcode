@@ -1,4 +1,4 @@
-import{d as r,m as d,j as e}from"./index-CCMKRyxT.js";import{L as i,D as o,M as p,T as m,W as h,a as w}from"./LocaleService-C19YxyPP.js";import{H as g}from"./index-fLKs-cYf.js";import{S as f}from"./index-DUTK_cLq.js";import{F as x}from"./index-CkDgrAyp.js";const v=r.div`
+import{d as r,m as d,j as e}from"./index-CxsWXQkA.js";import{L as i,D as o,M as p,T as m,W as h,a as w}from"./LocaleService-C19YxyPP.js";import{H as g}from"./index-BrnB60Yz.js";import{S as f}from"./index-BuNvLltS.js";import{F as x}from"./index-CIPQHtaA.js";const v=r.div`
   display: flex;
   flex-wrap: wrap;
   margin: 5vw auto 10vw;

@@ -12,9 +12,9 @@ Expertise and Collaboration: SEAT:CODE highlights its diverse team of digital in
 
 Showcase Digital Products: The website showcases we work in developing digital applications and services that aim to revolutionize mobility experiences.
 
-![coded](home.png "Home")
+![coded](public/home.png "Home")
 
-![coded](weareseatcode.png "We are SC")
+![coded](public/weareseatcode.png "We are SC")
 
 # Getting Started the app
 
@@ -59,6 +59,6 @@ Shared theme defined and injected to the App.
 ### **Node**
 **Node version** -  v20.15.0.
 
-![coded](technologies.jpg "Technologies")
+![coded](public/technologies.jpg "Technologies")
 
-![coded](codedinbcn.png "Coded in Barcelona")
+![coded](public/codedinbcn.png "Coded in Barcelona")

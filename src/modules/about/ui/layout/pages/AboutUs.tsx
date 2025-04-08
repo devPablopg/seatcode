@@ -76,10 +76,10 @@ const AboutUs = () => {
       </WrapperItem>
       <WrapperLinkedin>
         <iframe
-          src="https://widgets.sociablekit.com/linkedin-page-posts/iframe/25523041"
+          src="https://widgets.sociablekit.com/linkedin-page-posts/iframe/25543845"
           width="100%"
           height="100%"
-          title="LinkedIn Posts"
+          title="LinkedIn Posts Widget"
         ></iframe>
       </WrapperLinkedin>
       <WrapperItem>

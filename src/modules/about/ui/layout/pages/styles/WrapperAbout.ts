@@ -172,6 +172,10 @@ const WrapperLinkedin = styled.div`
   width: 90%;
   margin: 5vw auto;
 
+  iframe {
+    border: none;
+  }
+
   @media screen and (min-width: ${MOBILE}px) and (max-width: ${LAPTOP}px) and (orientation: landscape) {
     height: 90vh;
   }

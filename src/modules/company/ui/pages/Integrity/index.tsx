@@ -106,7 +106,7 @@ const Integrity = () => {
               </p>
               <p>
                 <a
-                  href="/seatcode/src/assets/docs/SEAT_CODE_Código_de_Conducta_ESP_OCT_2024.pdf"
+                  href="/seatcode/src/assets/docs/Codigo_Conducta_MAY25.pdf"
                   target="_blank"
                 >
                   Descargar versión en español
@@ -114,7 +114,7 @@ const Integrity = () => {
               </p>
               <p>
                 <a
-                  href="/seatcode/src/assets/docs/SEAT_CODE_Code_of_Conduct_ENG_OCT_2024.pdf"
+                  href="/seatcode/src/assets/docs/Code_of_Conduct_MAY25.pdf"
                   target="_blank"
                 >
                   Download English version
